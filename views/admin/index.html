@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GreenHome</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="/stylesheets/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    
+    <link rel="stylesheet" href="/stylesheets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css">
+
+    <link rel="stylesheet" href="/stylesheets/aos.css">
+
+    <link rel="stylesheet" href="/stylesheets/ionicons.min.css">
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/stylesheets/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="/stylesheets/flaticon.css">
+    <link rel="stylesheet" href="/stylesheets/icomoon.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body ng-app="loginApp">
+    
+    <section class="ftco-section contact-section bg-light">
+      <div class="container">
+        
+        <div class="row block-9 d-flex bg-white">
+          <div class="col-md-6 order-md-last"ng-controller="loginController">
+            <form action="#" class="bg-white p-5 contact-form"method="Post" ng-submit="submit()">
+             <div class="text-center">
+                      <a class="logo">  <img src="/images/Logo.png" alt="logo.png"><span>GreenHome</span></a>
+                      </div>
+                      <div class="row m-b-20">
+                        <div class="col-md-12">
+                            <h3 class="text-left txt-primary">Log In</h3>
+                        </div>
+                    </div>
+                    <hr/>
+              <div class="form-group">
+                <input type="text" name="email" ng-model="admin.username" class="form-control" placeholder="Enter UserName">
+              </div>
+              <div class="form-group">
+                <input type="Password" name="password" ng-model="admin.password" class="form-control" placeholder="Enter Password">
+              </div>
+             
+              <div class="form-group">
+                <input type="submit" value="Log In" class="btn btn-primary py-3 px-5">
+              </div>
+			 
+            </form>
+
+              
+                              
+          </div>
+
+          <div class="col-md-6 bg-img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/jquery-migrate-3.0.1.min.js"></script>
+    <script src="/javascripts/popper.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/jquery.easing.1.3.js"></script>
+    <script src="/javascripts/jquery.waypoints.min.js"></script>
+    <script src="/javascripts/jquery.stellar.min.js"></script>
+    <script src="/javascripts/owl.carousel.min.js"></script>
+    <script src="/javascripts/jquery.magnific-popup.min.js"></script>
+    <script src="/javascripts/aos.js"></script>
+    <script src="/javascripts/bootstrap-datepicker.js"></script>
+    <script src="/javascripts/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="http://localhost:3000/javascripts/admin.js"></script>
+    <script src="/javascripts/main.js"></script>
+    <script src="/javascripts/angular-route.js"></script>
+    <script src="/javascripts/angular.js"></script>
+    <script>
+      addEventListener("load", function () { setTimeout(hideURLbar, 0); }, false); function hideURLbar() { window.scrollTo(0, 1); }
+  </script>
+  </body>
+  </html>

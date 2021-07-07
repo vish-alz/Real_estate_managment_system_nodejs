@@ -1,0 +1,48 @@
+
+<div class="site-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 text-center mb-5">
+          <div class="site-section-title">
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 col-lg-4 mb-4">
+          <div class="col-sm-3" ng-repeat="property in propertys">
+						<article class="col-item">
+							<div class="photo">
+								<div class="options-cart-round">
+								<a href="#!showproperty?id={{property.property_id}}">
+									<button class="btn btn-default" title="Add to cart">
+										<span class="fa fa-arrow-right"></span>
+									</button>
+								</a>
+								</div>
+								<a href="#"> <img ng-src="{{property.property_image}}" style="height:300px;" class="img-responsive" alt="Product Image" /> </a>
+							</div>
+							<div class="info">
+								<div class="row" style="height:100px;">
+									<div class="price-details col-md-6" style="height:50px;">
+										<h1>{{property.property_title}}</h1>
+										
+									</div>
+								
+									<div class="col-md-6">
+										<span style="color:blue;" class="price-new">{{property.valid_for}}</span>
+									
+										<span class="price-new">{{property.price|currency:"Rs"}}</span>
+									
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
